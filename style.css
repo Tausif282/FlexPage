@@ -1,0 +1,171 @@
+*{
+    box-sizing:border-box;
+}
+body, html, ul,li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.navRoW{
+    display: flex;
+    
+}
+.navRoW>ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-around;
+    
+}
+.navRoW > ul >li{
+    flex: 1;
+    padding: 1rem;
+}
+
+.navRoW > ul> #navLogo{
+    flex: 4;
+    font-weight:bold;
+}
+.featuredItemRow{
+    display: flex; 
+}
+.heroRow{
+    
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    background-color: #2C3E4F;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    padding: 2em;
+
+}
+
+.emailRow{
+    
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    background-color:#2ecc71;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    padding: 2em;
+}
+
+.featuresRow{
+    
+    display: flex;
+    justify-content: center;
+
+}
+.featuredItemRow{
+    display: flex;
+
+}
+.featuredItemBox{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+.featuredItemBox >img{
+    /* flex: 1; */
+    /* text-align: center; */
+    width: 40%;
+    
+    
+
+   
+}
+.featuredItemBox{
+    
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1em o.5em;
+
+}
+.premiumRow{
+    
+    padding: 2em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background: #34495e;
+    text-align: center;
+}
+.roboButton{
+    padding: 1em;
+    border: none;
+    background-color: #2ecc71;
+    color: white;
+}
+.socialRow{
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color:lightblue;
+    
+}
+/* .socialRow>ul{
+    list-style: none;
+    display: flex;
+    
+     justify-content: space-around;
+     padding: 40px;
+      
+     
+} */
+/* .socialRow>.centercontent>ul>li{
+    background-color: 2c3e50;
+    border-radius: 50%;
+    text-align: center;
+    padding: 2em;
+    color: white;
+    fill: white;
+
+} */
+.socialRow>ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 40px;
+    text-decoration: lightcyan;
+    
+}
+.socialRow > ul >li{
+    flex: 4;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
